@@ -1,5 +1,7 @@
 import express from "express"
 import {bugService} from "./services/bug.service.js"
+import cors from 'cors'
+import { loggerService } from "./services/logger.service.js"
 
 const app = express()
 const corsOptions = {
@@ -11,6 +13,11 @@ const corsOptions = {
     ],
     credentials: true
 }
+
+const port = 3030
+app.listen(port, () =>
+    loggerService.info(`Server listening on port http://127.0.0.1:${port}/`)
+)
 app.use(cors(corsOptions))
 // app.use(express.static('public'))
 

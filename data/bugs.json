@@ -6,12 +6,6 @@
         "createAt": 1544189274
     },
     {
-        "_id": "4",
-        "title": "Im 4",
-        "severity": 3,
-        "createAt": 1544189274
-    },
-    {
         "_id": "5X8L2k",
         "title": "Im 7",
         "severity": "5",
@@ -22,5 +16,11 @@
         "title": "Im 7",
         "severity": "5",
         "createAt": 1722176750946
+    },
+    {
+        "_id": "gkNGEp",
+        "title": "fdsf",
+        "severity": "NaN",
+        "createAt": 1722255610161
     }
 ]
